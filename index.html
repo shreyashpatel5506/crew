@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <span class="logo">
+                <img src="logo.svg">
+            </span>
+            <span class="hr">
+            <hr>
+            <ul>
+                <li><a href="https://shreyashpatel5506.github.io/spacetourism/">00 HOME</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/destination/">01 DESTINATION</a></li>
+                <li><a  class="active1" href="https://shreyashpatel5506.github.io/crew/">02 CREW</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/technology/">03 TECHNOLOGY</a></li>
+            </ul>
+            </span>
+            <span>
+                <img src="icon-hamburger.svg" id="imgmenu" class="hamburger" onclick="menuh()">
+            </span>
+        </nav>
+        <div class="mobilemenu" id="ham">
+            <ul style="list-style-type: none;">
+                <li><a href="https://shreyashpatel5506.github.io/spacetourism/">00 HOME</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/destination/">01 DESTINATION</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/crew/">02 CREW</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/technology/">03 TECHNOLOGY</a></li>
+            </ul>
+        </div>
+        <div class="choice"><p style="color:rgb(130, 130, 130)">02</p> MEET YOUR CREW</div>
+        <div class="main">
+            <div  id="image"><img src="image-douglas-hurley.png" alt="crew" class="crew">
+                <img src="image-mark-shuttleworth.png" alt="crew" class="crew">
+                <img src="image-victor-glover.png" alt="crew" class="crew">
+                <img src="image-anousheh-ansari.png" alt="crew" class="crew">
+             </div>
+            <div class="detail">
+                <div>
+            <div class="text">
+                <span class="role">COMMANDER</span><br>
+                <span class="name">DOUGLAS  HURLEY</span><br>
+                <span class="description">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</span><br>
+            </div>
+            
+            <div class="text">
+                <span class="role">MISSION SPECIALIST</span><br>
+                <span class="name">MARK SHUTTLEWORTH</span><br>
+                <span class="description">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</span><br>
+            </div>
+            
+            <div class="text">
+                <span class="role">PILOT</span><br>
+                <span class="name">VICTOR GLOVER</span><br>
+                <span class="description">
+                    Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.</span><br>
+            </div>
+            
+            <div class="text">
+                <span class="role">FLIGHT ENGINEER</span><br>
+                <span class="name">ANOUSHEH ANSARI</span><br>
+                <span class="description">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</span><br>
+            </div>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot"  onclick="currentSlide(2)"></span>
+                <span class="dot"  onclick="currentSlide(3)"></span>
+                <span class="dot"  onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        
+</div>
+        <script src="index.js" async defer>
+            
+        </script>
+    </body>
+</html>
